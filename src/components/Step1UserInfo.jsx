@@ -3,16 +3,16 @@ import { useEffect, useState } from "react";
 const initialErrors = {
   firstName: "",
   middleName: "",
-  // lastName: "",
-  // mobile: "",
-  // email: "",
-  // birthdate: "",
-  // age: "",
-  // bloodGroup: "",
-  // height: "",
-  // weight: "",
-  // gender: "",
-  // maritalStatus: "",
+  lastName: "",
+  mobile: "",
+  email: "",
+  birthdate: "",
+  age: "",
+  bloodGroup: "",
+  height: "",
+  weight: "",
+  gender: "",
+  maritalStatus: "",
 };
 
 export default function Step1UserInfo({
